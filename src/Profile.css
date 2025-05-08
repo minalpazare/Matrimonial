@@ -1,0 +1,126 @@
+.profile-div{
+    border: 1px solid rgba(0, 0, 0, 0.205);
+    max-width: 40rem;
+    height: 38rem;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3rem;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    margin-left: 20rem;
+    box-shadow: 0 0 15px lightgray;
+}
+.arrow-img{
+    margin-right: 35rem;
+    margin-top: 2rem;
+    width: 2rem;
+    height: 2rem;
+}
+.profile-head{
+    text-align: left;
+    justify-content: left;
+    margin-left: 3rem;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.profile-img{
+    text-align: center;
+    justify-content: center;
+    margin-top: 1rem;
+    mix-blend-mode: multiply;
+
+}
+.img-div{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: rgba(255, 182, 193, 0.685);
+    justify-content: center;
+    margin-left: 17rem;
+}
+.option-div{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    
+}
+.text{
+    text-align: right;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    cursor: pointer;
+}
+.text:hover{
+    background-color: linen;
+}
+.son-div{
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 15px;
+    background-color: rgba(211, 211, 211, 0.541);
+    text-align: right;
+    justify-content: right;
+    padding: 2px;
+}
+
+@media screen and (max-width: 700px) {
+    .profile-div {
+      max-width: 90%;
+      height: auto;
+      margin-top: 2rem;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 2px;
+      margin-right: 2px;
+    }
+  
+    .arrow-img {
+      margin: 1rem auto;
+      display: block;
+    }
+  
+    .profile-head {
+      text-align: center;
+      margin-left: 0;
+      font-size: 18px;
+    }
+  
+    .profile-img {
+      margin-top: 1rem;
+    }
+  
+    .img-div {
+      width: 4rem;
+      height: 4rem;
+      margin-left: 0;
+      margin: 0 auto;
+    }
+  
+    .option-div {
+      flex-direction: column;
+      margin: 1.5rem 0;
+      gap: 1rem;
+      align-items: center;
+    }
+  
+    .text {
+      text-align: center;
+      margin-right: 0;
+      font-size: 13px;
+    }
+  
+    .son-div {
+      width: 80%;
+      height: auto;
+      text-align: center;
+      justify-content: center;
+      padding: 0.5rem;
+    }
+  }
+  
